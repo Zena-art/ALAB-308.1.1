@@ -117,18 +117,19 @@ const timeForTrip60 = distance / 60;
 const timeForTrip75 = distance / 75;
 
 if(costForTrip55 <= budget){
-  console.log(`Traveling at speed of 55 is withing your budget! You will spend $ ${costForTrip55}`)
+  console.log(`Traveling at speed of 55 is withing your budget! You will spend $ ${costForTrip55} and you will get to your destination in ${timeForTrip55} hours`)
 }else{
-  console.log(`You won't have enough money at this speed! Your cost will be$ ${costForTrip55}`);
+  console.log(`You won't have enough money at this speed! Your cost will be$ ${costForTrip55} and it will take ${timeForTrip55} hours to reach your destination`);
 }
 
 if(costForTrip60 <= budget){
-  console.log(`Traveling at speed of 60 is withing your budget! You will spend $ ${costForTrip60}`)
+  console.log(`Traveling at speed of 60 is withing your budget! You will spend $ ${costForTrip60} and you will reach your destination in ${timeForTrip60} hours`)
 }else{
   console.log(`You won't have enough money at this speed! Your cost will be$ ${costForTrip60}`);
 }
 if(costForTrip75 <= budget){
-  console.log(`Traveling at speed of 75 is withing your budget! You will spend $ ${costForTrip75}`)
+  console.log(`Traveling at speed of 75 is withing your budget! You will spend $ ${costForTrip75} and it will take ${timeForTrip75} hours to reach your destination`)
 }else{
-  console.log(`You won't have enough money at this speed! Your cost will be $ ${costForTrip75}`);
+  console.log(`You won't have enough money at speed of 75! Your cost will be $ ${costForTrip75} and it will take ${timeForTrip75} hours to reach your destination`);
 }
+
